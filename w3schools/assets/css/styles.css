@@ -1,0 +1,148 @@
+.container-header-top {
+    padding: 0 2%;
+    background-color: var(--white);
+}
+
+.container-header-top .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top-menu a img {
+    width: 70px;
+    height: 30px;
+    height: auto;
+    object-fit: cover;
+}
+
+.header-top-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-menu a,
+.header-top-menu-icon {
+    font-weight: 550;
+    color: var(--black);
+    font-size: 1.6rem;
+
+}
+
+.header-top-menu a {
+    padding: 27px 15px;
+}
+
+.header-top-menu a:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.header-top-options {
+    display: flex;
+    align-items: center;
+}
+
+.header-top-options .header-top-options-link:first-child a {
+    border-radius: 100rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.header-top-options .header-top-options-link:first-child a:hover {
+    background-color: #616161 !important;
+    color: var(--white);
+}
+
+.header-top-options .header-top-options-link:nth-child(2) a {
+    border-radius: 100rem;
+    padding: 1.5rem 3rem;
+    background-color: var(--pink);
+    color: var(--black);
+}
+
+.header-top-options .header-top-options-link:nth-child(2) a:hover {
+    background-color: #ffb3bb !important;
+    color: black !important;
+}
+
+.header-top-options .header-top-options-link:nth-child(3) a {
+    border-radius: 100rem;
+    padding: 1.5rem 3rem;
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.header-top-options .header-top-options-link:nth-child(3) a:hover {
+    background-color: var(--yellow) !important;
+    color: var(--black) !important;
+}
+
+.header-top-options .header-top-options-link:nth-child(4) a {
+    border-radius: 100rem;
+    padding: 1.5rem 3rem;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.header-top-options .header-top-options-link:nth-child(4) a:hover {
+    background-color: #059862 !important;
+    color: white !important;
+}
+
+.header-top-options a {
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+
+.header-top-options-link {
+    margin-right: 2rem;
+}
+
+/* menu */
+.header-nav {
+    background-color: #282A35 !important;
+}
+
+.container-header-nav .row .menu a,
+.container-header-nav .row .nav-options .nav-list li a {
+    color: var(--white);
+    font-size: 1.6rem;
+}
+
+.header-nav .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav .row .menu {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-nav .row .menu a {
+    padding: 1.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.header-nav .row .menu a.active {
+    color: var(--white);
+    background-color: var(--green) !important;
+}
+
+.header-nav .row .menu a:hover {
+    background-color: var(--black) !important;
+}
+
+.header-nav-icon .bi-house-door-fill {
+    font-size: 1.6rem;
+}
+
+.dropdown {
+    display: none;
+}

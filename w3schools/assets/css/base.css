@@ -1,0 +1,19 @@
+:root {
+    --green: #059862;
+    --white: #ffffff;
+    --black: #282A35;
+    --pink: #FFC0C7;
+    --yellow: #FFF4A3;
+    --grey: #E7E9EB;
+}
+
+.warrper {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
