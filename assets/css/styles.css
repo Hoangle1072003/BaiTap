@@ -1,0 +1,51 @@
+#bai2 {
+    margin: 5rem 0;
+    width: 500px;
+    height: auto;
+    background-color: #e7ce5f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.content-text {
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.content h1:first-child {
+    padding-bottom: 1rem;
+    border-bottom: .2rem solid #b4b0b0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content h1:nth-child(2) {
+    margin-top: 2rem;
+}
+
+.content h1,
+h2 {
+    font-size: 2rem;
+}
+
+.content h3 {
+    font-size: 1.7rem;
+}
+
+.content h4 {
+    font-size: 1.5rem;
+}
+
+.content h5 {
+    font-size: 1.3rem;
+}
+
+.content h6 {
+    font-size: 1.2rem;
+}
