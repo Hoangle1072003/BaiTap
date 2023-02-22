@@ -373,3 +373,117 @@
     background-color: var(--green);
     color: var(--white);
 }
+
+.content-easy,
+.content-Quiz {
+    padding: 3rem 0 0 2rem;
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--black);
+
+}
+
+.heading p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--black);
+    line-height: 1.2;
+    margin: 2rem 0;
+}
+
+.example {
+    padding: 2rem 5rem 5rem 2rem;
+    background-color: #E7E9EB;
+    border-radius: .5rem;
+}
+
+.example h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.example .box {
+    margin-top: 2rem;
+    height: 250px;
+    background-color: rgb(40, 44, 52);
+}
+
+.btn-primary {
+    padding-top: 4rem;
+}
+
+.subtitle {
+    margin: 4rem 0;
+    padding-left: 2rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--black);
+    line-height: 1.4;
+}
+
+hr {
+    margin: 20px -1px;
+    border-top: 1px solid #eee;
+}
+
+.content-Quiz .btn {
+    padding-top: 2rem;
+}
+
+.content-Quiz .btn a {
+    color: black !important;
+    background-color: #e7e9eb !important;
+}
+
+.content-Quiz .btn a:hover {
+    background-color: var(--green) !important;
+    color: var(--white) !important;
+}
+
+/* Exercises */
+.Exercises {
+    padding: 2rem 5rem 2rem 2rem;
+    background-color: var(--black);
+}
+
+.Exercises h3 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+.Exercises-form {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.4;
+    background-color: #E7E9EB;
+    padding: 1rem 2rem;
+}
+
+.Exercises .box {
+    padding: 3rem 5rem 5rem 1rem;
+    background-color: var(--white);
+}
+
+.Exercises-btn {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.Exercises-btn a {
+    padding: 1rem 2rem;
+}
+
+.Exercises-link {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: underline;
+    color: var(--black);
+}
