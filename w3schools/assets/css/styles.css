@@ -375,6 +375,7 @@
 }
 
 .content-easy,
+.content-Examples,
 .content-Quiz {
     padding: 3rem 0 0 2rem;
 }
@@ -413,6 +414,8 @@
     background-color: rgb(40, 44, 52);
 }
 
+
+
 .btn-primary {
     padding-top: 4rem;
 }
@@ -431,16 +434,16 @@ hr {
     border-top: 1px solid #eee;
 }
 
-.content-Quiz .btn {
+.content-Examples .btn {
     padding-top: 2rem;
 }
 
-.content-Quiz .btn a {
+.content-Examples .btn a {
     color: black !important;
     background-color: #e7e9eb !important;
 }
 
-.content-Quiz .btn a:hover {
+.content-Examples .btn a:hover {
     background-color: var(--green) !important;
     color: var(--white) !important;
 }
@@ -486,4 +489,19 @@ hr {
     font-weight: 500;
     text-decoration: underline;
     color: var(--black);
+}
+
+/* .content-Quiz  */
+.content-Quiz .heading {
+    padding-bottom: 2rem;
+}
+
+.content-Quiz .btn a {
+    background-color: #2196F3 !important;
+    color: var(--white);
+
+}
+
+.content-Quiz .btn {
+    padding-bottom: 4rem;
 }
