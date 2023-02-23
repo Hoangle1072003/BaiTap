@@ -281,13 +281,14 @@
 
 
 /* content */
-#content {
+#content,
+.footer {
     margin-left: 22rem;
     padding-top: 12rem;
 }
 
 .content {
-    padding: 1.6rem 3.2rem 3.2rem 1rem;
+    padding: 1.6rem 3.2rem 1.2rem 1rem;
     flex: 1;
     border-right: .1rem solid #ccc;
 }
@@ -376,7 +377,11 @@
 
 .content-easy,
 .content-Examples,
-.content-Quiz {
+.content-Quiz,
+.content-learning,
+.content-references,
+.back,
+.footer {
     padding: 3rem 0 0 2rem;
 }
 
@@ -504,4 +509,232 @@ hr {
 
 .content-Quiz .btn {
     padding-bottom: 4rem;
+}
+
+
+/* learning */
+.content-learning .heading,
+.learing-image {
+    margin-bottom: 7rem;
+}
+
+/* content-references */
+.content-references {}
+
+.content-references-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto auto;
+    grid-gap: 1.5rem;
+}
+
+.content-references-cards .card {
+    background-color: #E7E9EB !important;
+}
+
+.content-references-cards .card a:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.content-references-cards .card a {
+    padding: 2rem 0rem;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--black);
+    display: inline-block;
+
+}
+
+
+/* panel */
+.content-references-panel {
+    margin-top: 4rem;
+    margin-bottom: 15rem;
+}
+
+.box-panel {
+    padding: 4rem 5rem 8rem 4rem;
+    background-color: #282A35;
+    border-radius: 1.6rem;
+    color: var(--pink);
+    font-weight: 600;
+    line-height: 1.4;
+    position: relative;
+
+}
+
+.box-panel h1 {
+    font-size: 4rem;
+}
+
+.box-panel p {
+    margin: 5rem 0;
+    font-size: 3rem;
+}
+
+.box-panel a {
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 2rem 3rem;
+    background-color: #04AA6D;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+
+.box-panel a:hover {
+    background-color: #059862 !important;
+}
+
+#w3_cert_arrow {
+    position: absolute;
+    right: 264px;
+    width: 220px;
+    transform: rotate(10deg);
+    bottom: -10px;
+    z-index: 1;
+}
+
+.circle {
+    position: absolute;
+    right: 10%;
+    top: 61%;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100rem;
+    background-color: var(--green);
+}
+
+.back {
+    margin-bottom: 10rem;
+}
+
+/* footer */
+.footer {
+    padding-bottom: 10rem;
+    /* margin-right: 22rem; */
+}
+
+.footer-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+}
+
+.footer-card {
+    background-color: #282A35 !important;
+    border-radius: .5rem;
+}
+
+.footer-card a:hover {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.footer-card a {
+    font-size: 1.4rem;
+    padding: 1.5rem 0rem;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+}
+
+.footer-select-boxs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-select-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-select-box h1 {
+    font-size: 1.6rem;
+    color: var(--black);
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+.footer-select-box a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--black);
+}
+
+.footer-select-box a:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+.footer-forum__about {
+    text-align: right;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-forum__about a {
+    font-size: 1.6rem;
+    color: var(--black);
+    opacity: 0.6;
+    margin-right: 1rem;
+
+}
+
+.footer-forum__about a:hover {
+    color: var(--green);
+}
+
+.footer-forum__about-link {
+    padding-right: 1rem;
+    border-right: .1rem solid var(--black);
+    opacity: 0.6;
+}
+
+.footer-contact {
+    text-align: center;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.footer-contact p,
+.footer-contact span {
+    font-size: 1.2rem;
+    color: var(--black);
+    font-weight: 500;
+    line-height: 1.4;
+    opacity: 0.6;
+}
+
+.footer-contact p:first-child {
+    margin-bottom: 2rem;
+}
+
+.footer-contact span:hover {
+    color: var(--green);
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.footer-contact .logo {
+    margin-top: 2rem;
+}
+
+.footer-contact .logo img {
+
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
 }
