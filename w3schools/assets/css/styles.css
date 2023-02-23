@@ -615,7 +615,7 @@ hr {
 
 /* footer */
 .footer {
-    padding-bottom: 10rem;
+    /* padding-bottom: 10rem; */
     /* margin-right: 22rem; */
 }
 
@@ -671,6 +671,7 @@ hr {
     font-weight: 500;
     line-height: 1.4;
     color: var(--black);
+    text-align: center;
 }
 
 .footer-select-box a:hover {
