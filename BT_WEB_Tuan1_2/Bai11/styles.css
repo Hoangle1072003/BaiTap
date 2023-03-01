@@ -1,0 +1,35 @@
+#bai11 {
+    padding: 5rem 0;
+
+}
+
+.box-container {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 2rem 2rem;
+}
+
+.logo img {
+    width: 200px;
+    height: 100%;
+}
+
+.logo,
+#bai11 .box-content p {
+    margin-bottom: 2rem;
+}
+
+.bai11 ul>li {
+    margin-left: 2rem;
+}
+
+.bai11 .menu-child>li {
+    margin-left: 3rem;
+}
+
+.bai11 .menu-child>li a {
+    text-decoration: underline;
+    line-height: 1.4;
+}

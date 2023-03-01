@@ -1,0 +1,26 @@
+html {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 62.5%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    width: 250px;
+    height: auto;
+    /* background-color: #e7ce5f; */
+    margin: 10rem auto;
+}
+
+.box1 {
+    margin-bottom: 5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 5px 2px 5px 5px;
+}
+
+.box2 {
+    background-color: #e7ce5f;
+    box-shadow: rgba(99, 99, 99, 0.2) 5px 2px 5px 5px;
+}

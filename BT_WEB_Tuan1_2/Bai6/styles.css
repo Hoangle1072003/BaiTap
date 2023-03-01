@@ -1,0 +1,79 @@
+.container {}
+
+/* cau A */
+#cauA {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#cauA .tableStyle {
+    margin: 0 auto;
+}
+
+#cauA table {
+    border: .5rem solid #ccc;
+    border-radius: 3px;
+}
+
+#cauA .table-th1 {
+    padding: 1rem;
+    border-collapse: separate;
+}
+
+#cauA .table-orange {
+    background-color: orange;
+}
+
+#cauA .table-yellow {
+    background-color: yellow;
+}
+
+/* cau B */
+#cauB {
+    margin-bottom: 5rem;
+}
+
+#cauB .tableStyle {
+    background-color: #e7ce5f;
+    color: #000000;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 5rem;
+}
+
+#cauB .table-td2 {
+    padding: .5rem;
+    border-collapse: separate;
+}
+
+.underline {
+    text-decoration: underline;
+    color: red;
+}
+
+.box,
+.box1 {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+.box th {
+    padding: 1rem;
+}
+
+.table {
+    font-size: 2rem;
+    background-color: pink;
+}
+
+#cauC>.box {
+    background-color: orange;
+    width: 500px;
+}

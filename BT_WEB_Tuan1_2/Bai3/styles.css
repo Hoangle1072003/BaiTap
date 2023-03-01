@@ -1,0 +1,55 @@
+html {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 62.5%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {}
+
+
+.container {}
+
+.container-text,
+.container-text-align {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* text align */
+.container-text-align {
+    background-color: #e7ce5f;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.box {}
+
+.box1 {
+    text-align: left;
+}
+
+.box2 {
+    text-align: center;
+}
+
+.box3 {
+    text-align: right;
+}
+
+.heading {}

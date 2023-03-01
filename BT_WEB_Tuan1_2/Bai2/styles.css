@@ -1,0 +1,26 @@
+html {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 62.5%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    width: 500px;
+    height: auto;
+    background-color: #e7ce5f;
+    margin: 10rem auto;
+}
+
+.container {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container hr {
+    width: 80%;
+    border: .1rem solid #ccc;
+}

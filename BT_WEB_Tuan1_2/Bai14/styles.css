@@ -1,0 +1,42 @@
+.container {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+label {
+    /* padding-right: 120px; */
+}
+
+input {}
+
+.message {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.input {
+    display: flex;
+    gap: 105px;
+    margin-bottom: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+}
