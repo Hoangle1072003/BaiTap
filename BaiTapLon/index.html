@@ -15,7 +15,86 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@200;300;400;500;600&family=Lexend:wght@200;300;400;500;600;700&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@200;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./highlandscoffee/assets/css/reset.css" />
+    <link rel="stylesheet" href="./highlandscoffee/assets/css/main.css" />
+    <link rel="stylesheet" href="./highlandscoffee/assets/css/base.css" />
     <title>Highlands Coffee</title>
   </head>
-  <body></body>
+  <body>
+    <div class="warrper">
+      <div id="header">
+        <div class="container">
+          <div class="logo">
+            <a href="#">
+              <img
+                src="./highlandscoffee/assets/img/HLC_Logo_New_cream_logo.png"
+                alt="Highlands"
+              />
+            </a>
+          </div>
+          <div class="headers">
+            <div class="header-options">
+              <div class="header-search">
+                <form
+                  id="formSearch"
+                  name="formSearch"
+                  method="post"
+                  action="https://www.highlandscoffee.com.vn/vn/tim-kiem.html"
+                  onsubmit="return check_search(this);"
+                  class="box_search"
+                >
+                  <input
+                    name="keyword"
+                    id="keyword"
+                    type="text"
+                    class="text_search"
+                    placeholder="Từ khóa"
+                    value=""
+                    spellcheck="false"
+                    data-ms-editor="true"
+                  />
+                  <button
+                    class="btn-search"
+                    name="btn-search"
+                    type="submit"
+                    value=""
+                  ></button>
+                  <input name="do_search" value="1" type="hidden" />
+                </form>
+              </div>
+              <div class="header-language">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="./highlandscoffee/assets/img/VN.jpg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./highlandscoffee/assets/img/EN.jpg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav-menu">
+              <ul>
+                <li class="menu-mega"><a href="">Quán cà phê</a></li>
+                <li class="menu-mega menu-list"><a href="">Thực đơn</a></li>
+                <li class="menu-mega"><a href="">Tin tức</a></li>
+                <li class="menu-mega"><a href="">Cộng đồng</a></li>
+                <li class="menu-mega menu-list"><a href="">Về chúng tôi</a></li>
+                <li class="menu-mega"><a href="">Nghề nghiệp</a></li>
+                <li class="menu-mega"><a href="">Mua ngay</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

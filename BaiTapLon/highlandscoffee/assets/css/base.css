@@ -1,11 +1,16 @@
 :root {
     --red-color: #b22830;
     --white-color: #ffffff;
+    --brown-color: #53382c;
+    --milk-coffee-color: #f1bc7a;
+    --gray-color: #333333;
+
 }
 
 .warrper {
     max-width: 1920px;
-    margin: auto;
+    margin: 0 auto;
+    overflow: hidden;
 
 
 }
