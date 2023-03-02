@@ -204,14 +204,10 @@
 
 
 /* banner-home */
-
 .slideshow-container {
-    max-width: 1000px;
     position: relative;
-    margin: auto;
 }
 
-/* The dots/bullets/indicators */
 .dot {
     height: 13px;
     width: 13px;
@@ -257,7 +253,108 @@
     }
 } */
 
+/* main-bot */
+#main-bot {
+    margin-top: -18px;
+}
 
+.main-row {
+    display: flex;
+}
+
+.main-address {
+    background: url('/BaiTapLon/highlandscoffee/assets/img/main-bot.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 50%; */
+    height: 500px;
+    flex-basis: 50%;
+}
+
+.main-ifo {
+    background: url('/BaiTapLon/highlandscoffee/assets/img/main-bot2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 50%;
+}
+
+.content {
+    margin: 2rem 0;
+}
+
+.content h1 {
+    text-align: center;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.myText {
+    max-width: 300px;
+    margin-top: 3rem;
+    margin-left: auto;
+}
+
+.myText a {
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    display: block;
+}
+
+.myText a:nth-child(2) {
+    max-width: 220px;
+}
+
+.myText a:hover:first-child {
+    color: var(--milk-coffee-color);
+}
+
+.myText a:hover:nth-child(2) {
+    color: var(--milk-coffee-color);
+}
+
+.myText a:hover:last-child {
+    color: var(--milk-coffee-color);
+}
+
+
+
+/* information */
+.main-ifo {
+    padding: 2rem 5rem;
+}
+
+.main-ifo-item img {
+    width: 150px;
+    height: auto;
+}
+
+.main-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.main-desc h1 {
+    color: var(--brown-color);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.main-desc a {
+    text-decoration: underline;
+    color: var(--brown-color);
+    font-size: 1rem;
+}
 
 
 @keyframes fade {
