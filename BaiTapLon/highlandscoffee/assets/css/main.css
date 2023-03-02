@@ -452,8 +452,29 @@
     color: var(--white-color) !important;
 }
 
+.active {
+    background-color: var(--brown-color);
+}
 
 
+
+/* gioi thieu */
+.img img {
+    position: relative;
+    max-width: 50%;
+    width: 100%;
+    left: 50%;
+    /* float: left; */
+    /* clear: both; */
+}
+
+.about-text {
+    padding-left: 10%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+
+}
 
 @keyframes fade {
     from {
