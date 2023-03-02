@@ -67,7 +67,7 @@
     gap: 1rem;
 }
 
-.nav-menu ul {
+.nav-menu>ul {
     display: flex;
 }
 
@@ -83,5 +83,118 @@
 
 .nav-menu>ul>.menu-mega>a:hover {
     background-color: var(--brown-color);
+    color: var(--white-color);
+}
+
+/* dropdown */
+.menu-list:hover .menuList {
+    opacity: 1;
+}
+
+.con {
+    position: absolute;
+    top: 100%;
+}
+
+.con li a {
+    color: #000000 !important;
+}
+
+.menuList {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: var(--brown-color);
+    opacity: 0;
+}
+
+.col1 {
+    width: calc(100% - 100px);
+}
+
+.col1>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col1>ul>li {
+    margin-top: .7rem;
+    margin-bottom: 0.4rem;
+    text-align: center;
+}
+
+.col1>ul>li>a {
+    color: var(--milk-coffee-color);
+    font-size: 1.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.col1>ul>li>a:hover {
+    color: var(--white-color);
+}
+
+.menuList .container {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child {
+    margin-top: 0.4rem;
+}
+
+.child>li {
+    text-align: center;
+    padding: 0 1rem .5rem 1rem;
+
+}
+
+.child>li>a {
+    color: var(--white-color);
+    font-size: .6rem;
+    font-weight: 500;
+}
+
+.child>li:hover {
+    transform: translateX(7px);
+}
+
+.col2 .image {
+    text-align: center;
+}
+
+.col2 .image img {
+    width: 130px;
+    height: 100%;
+
+}
+
+.col2 .bannerMenu {
+    background: url('/BaiTapLon/highlandscoffee/assets/img/bgmenu.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 2rem 0 0 .5rem;
+}
+
+.text {
+    margin-bottom: 2rem;
+    max-width: 100px;
+}
+
+.text a span {
+    color: var(--milk-coffee-color);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.text a span:hover {
     color: var(--white-color);
 }
