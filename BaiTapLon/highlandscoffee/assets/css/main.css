@@ -87,8 +87,11 @@
 }
 
 /* dropdown */
-.menu-list:hover .menuList {
-    opacity: 1;
+.menu-list1:hover .menuList,
+.menu-list2:hover .menuList2 {
+    display: block;
+    animation: dropdown .3s ease-in;
+    /* transition: all 3s linear; */
 }
 
 .con {
@@ -105,7 +108,7 @@
     left: 0;
     right: 0;
     background-color: var(--brown-color);
-    opacity: 0;
+    display: none;
 }
 
 .col1 {
@@ -197,4 +200,15 @@
 
 .text a span:hover {
     color: var(--white-color);
+}
+
+
+@keyframes dropdown {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
