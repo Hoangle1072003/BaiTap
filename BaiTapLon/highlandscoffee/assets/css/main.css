@@ -91,7 +91,7 @@
 .menu-list2:hover .menuList2 {
     display: block;
     animation: dropdown .3s ease-in;
-    /* transition: all 3s linear; */
+    z-index: 1000;
 }
 
 .con {
@@ -203,12 +203,79 @@
 }
 
 
+/* banner-home */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.active {
+    background-color: var(--white-color);
+}
+
+.mySlides {
+    position: relative;
+}
+
+.radio {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: -55px;
+    transform: translate(-50%, 50%);
+}
+
+
+/* Fading animation */
+.fade {
+    /* -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s; */
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/* @-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+} */
+
+
+
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 @keyframes dropdown {
-    0% {
+    from {
         opacity: 0;
     }
 
-    100% {
+    to {
         opacity: 1;
     }
 }

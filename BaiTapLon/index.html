@@ -195,6 +195,99 @@
           </div>
         </div>
       </div>
+      <!-- banner-home -->
+      <div id="slideshow-container">
+        <div class="mySlides fade">
+          <img
+            src="./highlandscoffee/assets/img/banner1.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            src="./highlandscoffee/assets/img/banner2.png"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            src="./highlandscoffee/assets/img/banner3.png"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <img
+            src="./highlandscoffee/assets/img/banner4.png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <img
+            src="./highlandscoffee/assets/img/banner5.png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <img
+            src="./highlandscoffee/assets/img/banner6.png"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+      <!-- image -->
+      <div id="image-home">
+        <div class="image-home-slide">
+          <img
+            style="width: 100%"
+            src="./highlandscoffee/assets/img/HCO-7689-TET-2023-DIGITAL-BANNER-1440X460.jpg"
+            alt=""
+          />
+        </div>
+        <div class="image-home-slide">
+          <img
+            style="width: 100%"
+            src="./highlandscoffee/assets/img/21nov_CPCD_WebBanner_2000x639px_newPng.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <br />
+
+      <div class="radio">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
     </div>
   </body>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2000); // Chuyển ảnh sau 2 giây
+    }
+  </script>
 </html>
