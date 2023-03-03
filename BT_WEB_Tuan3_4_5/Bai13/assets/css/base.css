@@ -1,0 +1,16 @@
+.warrper {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.container_New {
+    width: min(100% -30px, 840px);
+    margin-inline: auto;
+}
