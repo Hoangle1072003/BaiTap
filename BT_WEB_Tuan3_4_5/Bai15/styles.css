@@ -1,0 +1,15 @@
+.container {
+    max-width: 900px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+input[type=text] {
+    width: 100px;
+    transition: width .35s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 250px;
+    background-color: lightgreen;
+}

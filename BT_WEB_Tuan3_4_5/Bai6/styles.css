@@ -1,0 +1,26 @@
+.warrper {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.box-list {
+    --f-columns: 3;
+    --f-gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--f-gap));
+    margin-bottom: calc(-1 * var(--f-gap));
+}
+
+.box-item {
+    margin-left: var(--f-gap);
+    margin-bottom: var(--f-gap);
+    width: calc((100% / var(--f-columns) - var(--f-gap)));
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
