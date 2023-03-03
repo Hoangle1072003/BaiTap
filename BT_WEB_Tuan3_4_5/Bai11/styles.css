@@ -1,0 +1,20 @@
+.container {
+    max-width: 800px;
+    padding: 0 15px;
+    margin: 0 auto;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+.footer {
+    position: fixed;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008000;
+}
+
+.footer p {
+    color: #fff;
+}

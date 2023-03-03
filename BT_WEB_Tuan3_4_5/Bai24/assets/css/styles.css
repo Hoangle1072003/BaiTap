@@ -1,0 +1,90 @@
+.warrper {
+    margin: 1rem 1rem;
+    border: .5rem solid #3297c9;
+    height: auto;
+}
+
+.header-top {
+    margin-bottom: 2rem;
+}
+
+.header-top h1 {
+    color: #859eb1;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1;
+    max-width: 200px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    border-top: .1rem solid #ccc;
+    border-bottom: .1rem solid #ccc;
+}
+
+.nav li a {
+    color: #859eb1;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+#content {
+    padding: 1rem 1%;
+}
+
+.heading {
+    margin: 1rem 0;
+}
+
+.heading h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #68666d;
+}
+
+.row {
+    display: flex;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.text-title {
+    color: #68666d;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.4;
+    max-width: 600px;
+}
+
+.text-title:nth-child(1) {
+    /* flex-shrink: 0; */
+    /* margin-top: auto; */
+}
+
+.txt {
+    margin: 2rem 0;
+    max-width: 600px;
+}
+
+.txt {}
