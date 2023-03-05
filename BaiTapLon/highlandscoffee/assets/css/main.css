@@ -459,22 +459,170 @@
 
 
 /* gioi thieu */
-.img img {
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: row-reverse;
+    /* padding: 2rem 0; */
+}
+
+.img img,
+.img2 img,
+.img3 img {
+    max-width: 800px;
+    width: 800px;
+}
+
+.img,
+.img2,
+.img3 {
     position: relative;
-    max-width: 50%;
-    width: 100%;
-    left: 50%;
-    /* float: left; */
-    /* clear: both; */
 }
 
 .about-text {
-    padding-left: 10%;
-    position: absolute;
-    top: 50%;
-    right: 50%;
-
+    padding-left: 10rem;
+    padding-top: 4rem;
+    /* flex-direction: row-reverse; */
 }
+
+.about-text:nth-child(2) {
+    /* background-color: var(--milk-coffee-color); */
+}
+
+.about-text h2 {
+    color: var(--brown-color);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.about-text h2:hover {
+    color: var(--milk-coffee-color);
+    cursor: pointer;
+}
+
+.about-text span {
+    color: var(--brown-color);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.about-text p {
+    color: var(--gray-color);
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 1rem 0 3.5rem 0;
+}
+
+.about-text a {
+    padding: .5rem 3.5rem;
+    border: .1rem solid var(--red-color);
+    color: var(--red-color);
+    border-radius: .5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.about-text a:hover {
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+
+.img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 59%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 59%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 59%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.img2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, rgba(222, 201, 173, 0) 50%, rgba(192, 152, 100, 1) 95%, rgba(189, 148, 93, 1) 99%);
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, rgba(222, 201, 173, 0) 50%, rgba(192, 152, 100, 1) 95%, rgba(189, 148, 93, 1) 99%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, rgba(222, 201, 173, 0) 50%, rgba(192, 152, 100, 1) 95%, rgba(189, 148, 93, 1) 99%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.img3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, rgba(222, 201, 173, 0) 50%, rgba(192, 152, 100, 1) 95%, rgba(189, 148, 93, 1) 99%);
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, rgb(227 210 188 / 0%) 50%, rgb(144 94 29) 95%, #905c2e 99%);
+    background: linear-gradient(to left rgba(255, 255, 255, 0) -1%, rgba(255, 255, 255, 0) 0%, rgba(222, 201, 173, 0) 50%, rgba(192, 152, 100, 1) 95%, rgba(189, 148, 93, 1) 99%);
+    z-index: 100;
+    pointer-events: none;
+}
+
+.about-item:nth-child(2) {
+    flex-direction: row;
+}
+
+.about-item:last-child {
+    flex-direction: row-reverse;
+}
+
+.about-child2 {
+    background-color: #bd945d;
+}
+
+.about-text-2 {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 5rem;
+}
+
+.about-text-2 h2,
+.about-text-2 span,
+.about-text-2 a,
+.about-text-3 h2,
+.about-text-3 span,
+.about-text-3 a {
+    color: var(--white-color);
+}
+
+.about-text-2 a,
+.about-text-3 a {
+    border-color: var(--white-color);
+}
+
+.about-text-2 a:hover,
+.about-text-3 a:hover {
+    background-color: var(--white-color);
+    color: var(--red-color);
+}
+
+.about-text-3 {
+    background-color: #8e5a2d;
+}
+
+
 
 @keyframes fade {
     from {
@@ -494,4 +642,18 @@
     to {
         opacity: 1;
     }
+}
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    /* transform: translateX(-100%); */
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    /* transform: translateX(0); */
 }

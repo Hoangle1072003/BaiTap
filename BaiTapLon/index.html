@@ -196,7 +196,7 @@
         </div>
       </div>
       <!-- banner-home -->
-      <div id="slideshow-container">
+      <div id="slideshow-container hidden">
         <div class="mySlides fade">
           <img
             src="./highlandscoffee/assets/img/banner1.jpg"
@@ -239,14 +239,14 @@
       </div>
       <!-- image -->
       <div id="image-home">
-        <div class="image-home-slide">
+        <div class="image-home-slide hidden">
           <img
             style="width: 100%"
             src="./highlandscoffee/assets/img/HCO-7689-TET-2023-DIGITAL-BANNER-1440X460.jpg"
             alt=""
           />
         </div>
-        <div class="image-home-slide">
+        <div class="image-home-slide hidden">
           <img
             style="width: 100%"
             src="./highlandscoffee/assets/img/21nov_CPCD_WebBanner_2000x639px_newPng.png"
@@ -267,7 +267,7 @@
       <div id="main-bot">
         <div class="main-row">
           <div class="main-address">
-            <div class="content">
+            <div class="content hidden">
               <h1>Quán mới</h1>
               <div class="myText">
                 <a href="#">Hàm Cá Mập</a>
@@ -287,7 +287,7 @@
             </div>
           </div>
           <div class="main-ifo">
-            <div class="main-desc">
+            <div class="main-desc hidden">
               <h1>Tin Mới Nhất</h1>
               <a href="#">Xem toàn bộ</a>
             </div>
@@ -382,28 +382,5 @@
       </div>
     </div>
   </body>
-
-  <script>
-    var slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {
-        slideIndex = 1;
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
-      setTimeout(showSlides, 2000); // Chuyển ảnh sau 2 giây
-    }
-  </script>
+  <script src="./highlandscoffee/assets/app.js"></script>
 </html>
