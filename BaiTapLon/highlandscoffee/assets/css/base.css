@@ -11,12 +11,23 @@
     max-width: 1920px;
     margin: 0 auto;
     overflow: hidden;
-
-
 }
 
 .container {
     max-width: 1200px;
     margin: 0px auto;
     padding: 0px 15px;
+}
+
+.container-new {
+    width: min(100% -30px, 840px);
+    margin-inline: auto;
+}
+
+.item {
+    width: clamp(200px, 50%, 300px);
+}
+
+.text-shadow__hover {
+    text-shadow: red -3px 0 cyan 3px 0;
 }

@@ -645,6 +645,69 @@
 }
 
 
+/* menu */
+.about-banner:first-child {
+    background: url('/BaiTapLon/highlandscoffee/assets/img/menu-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    /* min-height: 340px; */
+}
+
+.about-banner:nth-child(2) {
+    background: url('/BaiTapLon/highlandscoffee/assets/img/menu-2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    /* min-height: 340px; */
+}
+
+.about-banner:last-child {
+    background: url('/BaiTapLon/highlandscoffee/assets/img/menu3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    /* min-height: 340px; */
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    max-width: 100%;
+    width: 400px;
+}
+
+.about-banner-text {
+    max-width: 500px;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hidden {
     opacity: 0;
     filter: blur(5px);
@@ -656,4 +719,21 @@
     opacity: 1;
     filter: blur(0);
     /* transform: translateX(0); */
+}
+
+
+.hidden-Y {
+    opacity: 0;
+    /* filter: blur(5px); */
+    /* transform: translateY(-100%); */
+    transition: all .5s linear;
+    transform: translateY(100px);
+}
+
+
+.show-Y {
+    opacity: 1;
+    /* filter: blur(0);
+    transform: translateY(0); */
+    transform: translateY(0);
 }
