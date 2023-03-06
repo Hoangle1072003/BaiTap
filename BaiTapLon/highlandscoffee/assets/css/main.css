@@ -813,10 +813,94 @@
     font-size: 0.5rem;
 }
 
+/* nguon goc */
+.banner {
+    position: relative;
+}
+
+.banner-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: -moz-linear-gradient(left, rgba(233, 233, 233, 0) 1%, rgba(233, 233, 233, 0) 41%, rgba(233, 233, 233, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(233, 233, 233, 0) 1%, rgba(233, 233, 233, 0) 41%, rgba(233, 233, 233, 1) 100%);
+    background: linear-gradient(to right, rgba(233, 233, 233, 0) 1%, rgba(233, 233, 233, 0) 41%, rgba(233, 233, 233, 1) 100%);
+}
+
+.banner .banner-img img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
 
 
+.container .row {
+    display: flex;
+    margin: 3rem 0;
+}
 
+.container-text {
+    width: 70%;
+}
 
+.container-img {
+    width: 50%;
+}
+
+.heading {
+    margin-bottom: 1rem;
+}
+
+.heading h1 {
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 1.6;
+    color: var(--brown-color);
+    text-transform: uppercase;
+}
+
+.container-text span {
+    color: #333;
+    font-size: .7rem;
+}
+
+.container-text p {
+    margin: 2rem 0;
+    color: #333;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.container-text h4 {
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.con-img {
+    position: relative;
+    text-align: center;
+}
+
+.con-img a img {
+    max-width: 500px;
+    width: 300px;
+}
+
+.desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
 
 
 
