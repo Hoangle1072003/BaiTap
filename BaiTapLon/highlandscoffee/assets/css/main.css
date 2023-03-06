@@ -682,14 +682,136 @@
     width: 400px;
 }
 
-.about-banner-text {
+.about-banner-text,
+.about-banner-text2 {
     max-width: 500px;
     padding-left: 0;
 }
 
+.about-banner-text h2 {
+    color: var(--cafe-sua-color);
+}
+
+.about-banner-text h2:hover {
+    color: var(--red-color);
+}
+
+.about-banner-text p {
+    color: var(--cafe-sua-color);
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.about-banner-text a {
+    color: var(--cafe-sua-color);
+    border-color: var(--cafe-sua-color);
+}
+
+.about-banner-text1 h2,
+.about-banner-text1 p {
+    color: var(--green-color);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.about-banner-text1 {
+    max-width: 500px;
+    text-align: right;
+    margin-right: 12rem;
+}
+
+.about-banner-text1 a {
+    color: var(--green-color);
+    border-color: var(--green-color);
+}
+
+.about-banner-text2 h2,
+.about-banner-text2 p,
+.about-banner-text2 a {
+    color: var(--white-color);
+    border-color: var(--white-color);
+}
 
 
 
+/* cong dong */
+.news {
+    margin-bottom: 3rem;
+}
+
+.title {
+    color: var(--brown-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+.box-list {
+    --f-columns: 3;
+    --f-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--f-gap));
+    margin-bottom: calc(-1 * var(--f-gap));
+}
+
+.box-item {
+    margin-left: var(--f-gap);
+    margin-bottom: var(--f-gap);
+    width: calc((100% / var(--f-columns) - var(--f-gap)));
+    display: flex;
+    flex-direction: column;
+}
+
+.image-box {
+    flex-shrink: 0;
+    /* padding: 1rem 1rem; */
+    overflow: hidden;
+}
+
+.image-box img:hover {
+    transform: scale(1.05);
+}
+
+.image-box a img {
+    max-width: 400px;
+    object-fit: cover;
+}
+
+.title-decs a h3 {
+    color: var(--gray-color);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title-decs {
+    flex: 1;
+    margin-top: 1rem;
+}
+
+.title-decs h3:hover {
+    color: var(--red-color);
+}
+
+.date {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+.date span {
+    color: var(--greyish-color);
+    font-size: 0.5rem;
+}
 
 
 

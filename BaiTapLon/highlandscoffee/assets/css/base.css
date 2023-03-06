@@ -4,6 +4,9 @@
     --brown-color: #53382c;
     --milk-coffee-color: #f1bc7a;
     --gray-color: #333333;
+    --cafe-sua-color: #faebd7;
+    --green-color: #006400;
+    --greyish-color: #888888;
 
 }
 
@@ -20,7 +23,7 @@
 }
 
 .container-new {
-    width: min(100% -30px, 840px);
+    width: min(100% -30px, 1200px);
     margin-inline: auto;
 }
 
