@@ -1,0 +1,55 @@
+:root {
+    --red-color: #b22830;
+    --white-color: #ffffff;
+    --brown-color: #53382c;
+    --milk-coffee-color: #f1bc7a;
+    --gray-color: #333333;
+    --cafe-sua-color: #faebd7;
+    --green-color: #006400;
+    --greyish-color: #888888;
+}
+
+.warrper {
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.container-new {
+    width: min(100% -30px, 1200px);
+    margin-inline: auto;
+}
+
+.item {
+    width: clamp(200px, 50%, 300px);
+}
+
+.text-shadow__hover {
+    text-shadow: red -3px 0 cyan 3px 0;
+}
+
+.btn-primary {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.btn:hover {
+    color: var(--white-color);
+    background-color: var(--red-color);
+}
+
+.btn {
+    border: .1rem solid var(--red-color);
+    color: var(--red-color);
+    border-radius: .5rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: .5rem 2.5rem;
+    margin: auto;
+}
