@@ -140,11 +140,15 @@
 
 .box-list {
     --f-columns: 4;
-    --f-gap: 15px;
+    --f-gap: 35px;
     display: flex;
     flex-wrap: wrap;
     margin-left: calc(-1 * var(--f-gap));
     margin-bottom: calc(-1 * var(--f-gap));
+    margin-top: 3.2rem;
+}
+
+.box-content {
     margin-top: 2rem;
 }
 
@@ -160,7 +164,7 @@
 }
 
 .box-text {
-    margin: 1rem 0;
+    margin: 1rem 0 2rem 0;
 }
 
 .box-text .box-title h1 {
@@ -186,7 +190,7 @@
 }
 
 .salary h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -194,4 +198,38 @@
     font-size: 1rem;
     color: rgba(177, 169, 177, 0.667);
     font-weight: 600;
+}
+
+.purchase {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #91c5b0;
+    border: .09rem solid #459D7A;
+    cursor: pointer;
+}
+
+.best-seller {
+    position: absolute;
+    top: 154%;
+    left: 21rem;
+    padding: .3rem .3rem;
+    background-color: #ffc970;
+    border-radius: 1rem;
+    line-height: 1rem;
+    cursor: pointer;
+
+}
+
+.best-seller span {
+    color: #c18f3d;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: .05rem;
+}
+
+.img:first {
+    position: relative;
 }
