@@ -376,3 +376,109 @@ ul {
 li a {
     color: #fff;
 }
+
+
+@media screen and (max-width: 1023.98px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {}
+
+    .menu-nav a {
+        font-size: 0.7rem;
+        padding: 1rem .5rem;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .options {
+        gap: 0;
+    }
+
+    .option-search input {
+        height: 30px;
+        width: 100px;
+        padding-left: .4rem;
+        font-size: .7rem;
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 15%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        max-width: 500px;
+
+    }
+
+    .banner-text .heading h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #323842;
+    }
+
+    .navbar a {
+        font-size: .7rem;
+        padding: 1rem 1rem;
+    }
+
+    .sort-by {
+        line-height: 30px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .box-list {
+        --f-columns: 2;
+        --f-gap: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-list {
+        width: 100%;
+    }
+
+    .footer-icon-links {
+        justify-content: center;
+    }
+
+    .footer-connect {
+        width: 100%;
+    }
+
+    .footer-desc,
+    ul {
+        justify-content: center;
+    }
+
+    .footer-language {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    html {
+        font-size: 50%;
+    }
+
+    .box-list {
+        --f-columns: 1;
+        --f-gap: 10px;
+    }
+
+    .footer-list {
+        --f-columns: 1;
+        --f-gap: 20px;
+    }
+}
