@@ -1,0 +1,5 @@
+.image {
+    background-image: url(/BT_WEB_Tuan3_4_5/Bai5/assets/img/flower1.jpg), url(/BT_WEB_Tuan3_4_5/Bai5/assets/img/flower2.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
