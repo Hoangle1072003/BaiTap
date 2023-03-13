@@ -943,3 +943,81 @@
     transform: translateY(0); */
     transform: translateY(0);
 }
+
+
+
+
+/* reponsive */
+@media screen and (max-width: 1023.98px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header-search,
+    .radio {
+        display: none;
+    }
+
+    .nav-menu ul {
+        transform: translateX(800px);
+        flex-direction: column;
+        display: none;
+    }
+
+    .main-row {
+        flex-direction: column;
+    }
+
+    .image-home-slide img,
+    .main-address {
+        min-height: 300px;
+    }
+
+    .myText a {
+        font-size: 1.8rem;
+    }
+
+    #footer {
+        height: auto;
+        padding: 2% 0;
+    }
+
+    #footer .container {
+        height: auto;
+        flex-direction: column;
+        gap: 0;
+        font-size: 1rem;
+    }
+
+    .footer-links a i {
+        font-size: 3rem;
+    }
+
+    .footer-contact span,
+    .footer-info a,
+    .footer-mail span,
+    .main-ifo-title a h4,
+    .main-ifo-date span,
+    .main-ifo-date i,
+    .main-desc>a {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .image-home-slide img,
+    .main-address {
+        min-height: 200px;
+    }
+
+    .content h1 {
+        text-align: left;
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+}

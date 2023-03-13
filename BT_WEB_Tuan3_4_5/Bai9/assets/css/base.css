@@ -1,0 +1,160 @@
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-danger: #f75842;
+    --color-light: rgba(247, 88, 66, 0.4);
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+    --transition: all 400ms ease;
+}
+
+.warrper {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.container__new {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+/* body {
+    background: #FFF;
+    filter: invert(1) hue-rotate(210deg);
+} */
+
+/* flex-box */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gap {
+    gap: 1rem;
+}
+
+.flex-center-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-image {
+    width: 10rem;
+    height: 10rem;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+/* grid */
+.grid_auto-fit {
+    grid-template-columns: repeat(12, minmax(250px, 1fr));
+    grid-template-rows: auto auto;
+    grid-gap: 2rem;
+}
+
+
+
+/* text */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.random-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding: 1rem 2rem;
+    border: .1rem solid transparent;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.btn-primary {
+    background: var(--color-danger);
+    color: var(--color-white);
+}
+
+/* chay chu */
+.typing {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.typing-effect {
+    width: 22ch;
+    animation: typing 2s steps(22), effect .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes effect {
+    50% {
+        border-color: transparent;
+    }
+}
